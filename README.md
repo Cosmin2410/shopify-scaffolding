@@ -1,40 +1,48 @@
-E-Commerce site with shopify as headless cms and sveltekit as frontend
+# E-Commerce Scaffolding with Shopify (Headless CMS) & SvelteKit
 
-# sv
+This project is a **developer-friendly scaffolding** designed to help you build a modern, headless e-commerce website quickly and efficiently. It leverages **Shopify** as the backend (CMS) and **SvelteKit** as the frontend framework, with a focus on performance, developer experience, and scalability.
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+---
 
-## Creating a project
+## ✨ Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Shopify API Integration**: Pre-built and type-safe GraphQL queries using Codegen.
+- **Authentication System**: Includes user authentication (login, signup, customer data update, etc).
+- **Cart System**: Fully functional cart implementation.
+- **UI Components**: Includes reusable UI components styled with [shadcn-svelte](https://www.shadcn-svelte.com/).
+- **Extensible Architecture**: Designed to be easily extended with custom features and third-party integrations.
 
-```bash
-# create a new project in the current directory
-npx sv create
+---
 
-# create a new project in my-app
-npx sv create my-app
-```
+## 🚀 Quick Start Guide
 
-## Developing
+Follow these steps to get started with the scaffolding:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### 1️⃣ Prerequisites
+- **Shopify Account**: Create a [Shopify account](https://www.shopify.com/) and obtain your API keys for both customer storefront and admin panels.
 
+
+### 2️⃣ Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Cosmin2410/shopify-scaffolding
+   cd shopify-scaffolding
+    ```
+2. Start the development server:
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# or
+yarn dev
 ```
 
-## Building
+## 📚 Documentation
+Shopify Storefront API: [Shopify API Docs](https://shopify.dev/docs/storefronts/headless/bring-your-own-stack)
 
-To create a production version of your app:
 
-```bash
-npm run build
-```
+## 🌟 Contributions
+Contributions are welcome! If you find a bug or have a feature request, feel free to open an issue or submit a pull request.
 
-You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## 📝 License
+This project is licensed under the MIT License.
